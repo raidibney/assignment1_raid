@@ -81,6 +81,7 @@ nav .menu a{
     padding: 154.5px 341px 200.5px 341px;
     background: url("./assets/hero-bg.png");
     background-repeat: no-repeat;
+    background-size: cover  ;
     
 }
 
@@ -228,14 +229,80 @@ span{
 }
 
 /*light image section*/
-.main_light{
-    display:flex;
-    width:1360px;
-    height:600px;
-    padding:120px 120px 120px 120px;
+.light {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px;
+    background-color: #ffffff;
 }
-.light_img{
-    height: 600px;
-    width: 600px;
-    
+
+.main_light {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.light_image img {
+    max-width: 600px; /* adjust the size as needed */
+    height: auto;
+}
+
+.light_content {
+    width: 50%; /* text will occupy half the space */
+    padding-left: 20px;
+}
+
+.light_content h6 {
+    font-size: 18px;
+    color: #333;
+}
+
+.light_content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+.light_content h6:last-child {
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* think start from here*/
+.think {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:0px 120px 120px 120px;
+    margin:0px auto;
+    background-color:rgba(255, 255, 255, 1);
+}
+.outter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px 80px 40px;
+    background-color: rgba(247, 246, 242, 1);
+    width: 1360px;
+    height: 384px;
+}
+
+.inner {
+    text-align: center; 
+    max-width: 600px; 
+    background-color: rgba(247, 246, 242, 1);
+    width: 80%; 
+    height: 120px;
+}
+
+.inner h2,h5{
+    margin-bottom: 20px;
+
+}
+.inner button{
+    margin-bottom: 15px;
 }
