@@ -245,12 +245,12 @@ span{
 }
 
 .light_image img {
-    max-width: 600px; /* adjust the size as needed */
+    max-width: 600px; 
     height: auto;
 }
 
 .light_content {
-    width: 50%; /* text will occupy half the space */
+    width: 50%; 
     padding-left: 20px;
 }
 
@@ -306,3 +306,59 @@ span{
 .inner button{
     margin-bottom: 15px;
 }
+
+/*footer part styling*/
+
+
+footer {
+    background-color: #1E2A47; 
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width:auto;
+    height:344px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 30px 120px; 
+}
+
+footer .logo-footer {
+    width: 139px;
+    height:60px;
+    height: auto;
+}
+
+footer .social-links {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding-right: 20px; 
+}
+
+footer .social-links h5 {
+    margin-right: 15px; 
+    margin-bottom: 0;
+}
+
+footer .social-links i {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+footer .social-links i:hover {
+    color: #4c9f70; /* Hover effect for icons */
+}
+
+footer .copyright {
+    margin: 0;
+    font-style:normal;
+    font-size: 14px;
+    text-align: center;
+    padding:80px 120px 10px 120px;
+}
+
